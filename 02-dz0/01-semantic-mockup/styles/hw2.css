@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    color: #fff;
+}
+
+h1 {
+    width: 100%;
+    display: inline-block;
+    background-color: red;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+    background-color: green;
+}
+
+nav {
+    background-color: orange;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    text-decoration: underline;
+}
+
+nav ul li:last-child {
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+article {
+    background-color: blue;
+    padding: 20px 10px;
+}
+
+article:first-child {
+    margin: 0 0 10px;
+}
+
+footer {
+    background-color: purple;
+    font-size: 30px;
+    padding: 10px 0;
+}
