@@ -4,7 +4,7 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "node-sass -w assets/scss -o assets/css --recursive"
   },
   "husky": {
     "hooks": {
