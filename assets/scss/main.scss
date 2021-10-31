@@ -1,3 +1,9 @@
+// css reset and normolize
+@import '../../node_modules/css-reset-and-normalize/scss/button-reset';
+@import '../../node_modules/css-reset-and-normalize/scss/link-reset';
+@import '../../node_modules/css-reset-and-normalize/scss/reset-and-normalize';
+
+// project styles
 @import '../fonts/_fonts';
 @import './variables';
 @import '../../02-dz0/01-semantic-mockup/styles/hw2';
