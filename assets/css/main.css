@@ -546,6 +546,7 @@ template {
 :root {
   --white: #ffffff;
   --black: #212429;
+  --black-1: #000000;
   --pink: #F784AD;
   --purple: #7048E8;
   --blue: #374FC7;
@@ -562,48 +563,41 @@ template {
 * {
   font-family: 'Roboto', sans-serif; }
 
-body {
-  margin: 0;
-  color: #fff; }
+.wrapper {
+  display: inline-flex;
+  flex-flow: row wrap;
+  padding: 15px; }
+  .wrapper_column {
+    flex-flow: column wrap; }
+  .wrapper__accordion {
+    margin: 0 0 8px; }
+    .wrapper__accordion:last-child {
+      margin: 0; }
 
-h1 {
-  width: 100%;
-  display: inline-block;
-  background-color: red;
-  margin: 0; }
-
-main {
-  padding: 10px;
-  background-color: green; }
-
-nav {
-  background-color: orange;
-  padding: 5px 0; }
-
-nav ul {
-  list-style-type: none; }
-
-nav ul li {
-  display: inline-block;
-  padding: 0 10px 0 0;
-  text-decoration: underline; }
-
-nav ul li:last-child {
-  padding: 0; }
-
-header,
-nav,
-footer {
-  text-align: center; }
-
-article {
-  background-color: blue;
-  padding: 20px 10px; }
-
-article:first-child {
-  margin: 0 0 10px; }
-
-footer {
-  background-color: purple;
-  font-size: 30px;
-  padding: 10px 0; }
+.accordion {
+  box-sizing: border-box;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  background-color: var(--white);
+  display: inline-flex;
+  padding: 23px 31px; }
+  .accordion[open] .accordion__summary {
+    color: var(--black); }
+  .accordion__summary {
+    color: var(--black-1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer; }
+    .accordion__summary::-webkit-details-marker {
+      display: none; }
+  .accordion__content {
+    padding: 16px 0 0;
+    color: var(--grey-4);
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Inter'; }

@@ -1,0 +1,17 @@
+.wrapper {
+    display: inline-flex;
+    flex-flow: row wrap;
+    padding: 15px;
+
+    &_column {
+        flex-flow: column wrap;
+    }
+
+    &__accordion {
+        margin: 0 0 8px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

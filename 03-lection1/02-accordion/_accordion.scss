@@ -1,0 +1,36 @@
+.accordion {
+    box-sizing: border-box;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    background-color: var(--white);
+    display: inline-flex;
+    padding: 23px 31px;
+
+    &[open] &__summary {
+        color: var(--black);
+    }
+
+    &__summary {
+        color: var(--black-1);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+    
+    &__content {
+        padding: 16px 0 0;
+        color: var(--grey-4);
+        font-size: 16px;
+        line-height: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Inter';
+    }
+}
