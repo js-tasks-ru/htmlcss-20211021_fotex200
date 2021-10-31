@@ -9,10 +9,12 @@
 @import './global';
 
 // page styles
-@import '../../components/page/_homepage';
+@import '../../components/page/_page';
 
 // components
 @import '../../components/header/_header';
 @import '../../components/main/_main';
 @import '../../components/footer/_footer';
 @import '../../components/text/_text';
+@import '../../components/card/_card';
+@import '../../components/preview/_preview';

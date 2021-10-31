@@ -3,10 +3,11 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 70px 20px;
+    padding: 70px;
 
     h2 {
         margin: 0 0 30px;
+        text-align: center;
     }
 
     &__text {
