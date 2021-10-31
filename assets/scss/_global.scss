@@ -1,0 +1,11 @@
+h1 {
+    @extend %pl-h1;
+}
+
+h2 {
+    @extend %pl-h2;
+}
+
+p {
+    @extend %pl-text;
+}
