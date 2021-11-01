@@ -1,0 +1,5 @@
+.text {
+    &__paragraph {
+        @extend %pl-text;
+    }
+}
