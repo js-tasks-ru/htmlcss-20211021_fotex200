@@ -7,6 +7,7 @@
 @import '../fonts/_fonts';
 @import './variables';
 @import './global';
+@import './helper';
 
 // page styles
 @import '../../components/page/_page';
@@ -18,3 +19,7 @@
 @import '../../components/text/_text';
 @import '../../components/card/_card';
 @import '../../components/preview/_preview';
+
+// hw components
+@import '../../03-lection1/02-accordion/_accordion';
+@import '../../03-lection1/01-button/_button';
