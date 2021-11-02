@@ -565,7 +565,7 @@ template {
   --secondary: var(--purple); }
 
 * {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .wrapper {
   display: inline-flex;
