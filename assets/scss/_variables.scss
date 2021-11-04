@@ -25,8 +25,11 @@
     --secondary: var(--purple);
 }
 
+$roboto: 'Roboto', sans-serif;
+$inter: 'Inter', sans-serif;
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: $roboto;
 }
 
 // placeholders
