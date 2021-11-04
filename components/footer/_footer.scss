@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+
+    &__text-header {
+        margin: 0 0 30px;
+        text-align: center;
+    }
+
+    &__text {
+        max-width: 640px;
+    }
+}
