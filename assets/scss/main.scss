@@ -3,12 +3,28 @@
 @import '../../node_modules/css-reset-and-normalize/scss/link-reset';
 @import '../../node_modules/css-reset-and-normalize/scss/reset-and-normalize';
 
-// project styles
+// global styles
 @import '../fonts/_fonts';
 @import './variables';
+@import './global';
 @import './helper';
+
+// page styles
+@import '../../components/page/_page';
+
+// components
+@import '../../components/header/_header';
+@import '../../components/main/_main';
+@import '../../components/footer/_footer';
+@import '../../components/text/_text';
+@import '../../components/text-header/_text-header';
+@import '../../components/card/_card';
+@import '../../components/preview/_preview';
+
+// hw components
 @import '../../03-lection1/02-accordion/_accordion';
 @import '../../03-lection1/01-button/_button';
-
-
 @import '../../04-lection2/01-histogram/_histogram';
+@import '../../04-lection2/02-skeleton/_skeleton';
+
+

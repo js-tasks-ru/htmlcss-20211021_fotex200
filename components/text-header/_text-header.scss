@@ -1,0 +1,9 @@
+.text-header {
+    &__h1 {
+        @extend %pl-h1;
+    }
+
+    &__h2{
+        @extend %pl-h2;
+    }
+}

@@ -1,0 +1,11 @@
+.preview {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+
+    &__card {
+        margin: 15px;
+    }
+}

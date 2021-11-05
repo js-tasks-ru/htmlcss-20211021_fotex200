@@ -13,6 +13,10 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #E2E6E8;
+    --grey-6: #F3F5F5;
+    --grey-7: #E3E7EA;
+    --grey-8: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -21,12 +25,36 @@
     --secondary: var(--purple);
 }
 
-// fonts variables will be defined after main page would be merged
-$inter: 'Inter', sans-serif;
 $roboto: 'Roboto', sans-serif;
+$inter: 'Inter', sans-serif;
 
 * {
     font-family: $roboto;
+}
+
+// placeholders
+%pl-h1 {
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--black);
+}
+
+%pl-h2 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--black);
+}
+
+%pl-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 $default-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
