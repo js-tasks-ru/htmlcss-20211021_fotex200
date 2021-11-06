@@ -1,0 +1,19 @@
+.calendar {
+    //todo
+    margin: 200px;
+    max-width: 300px;
+
+    &__wrapper {
+        padding-bottom: 100%;
+        position: relative;
+    }
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
