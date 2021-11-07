@@ -38,6 +38,11 @@ $inter: 'Inter', sans-serif;
     font-family: $roboto;
 }
 
+$grid-breakpoints: (
+  md: 500px,
+  lg: 992px
+);
+
 // placeholders
 %pl-h1 {
     font-size: 50px;

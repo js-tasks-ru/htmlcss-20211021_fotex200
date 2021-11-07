@@ -5,9 +5,10 @@
 
 // global styles
 @import '../fonts/_fonts';
-@import './variables';
-@import './global';
-@import './helper';
+@import './_variables';
+@import './_mixins';
+@import './_global';
+@import './_helper';
 
 // page styles
 @import '../../components/page/_page';
