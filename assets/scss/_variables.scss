@@ -43,6 +43,10 @@ $grid-breakpoints: (
   lg: 992px
 );
 
+$z-index: (
+  modal: 3
+);
+
 // placeholders
 %pl-h1 {
     font-size: 50px;

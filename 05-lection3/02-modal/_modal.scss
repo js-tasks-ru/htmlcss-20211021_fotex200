@@ -9,6 +9,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    @include z-index(modal);
 
     &__window {
         max-width: 428px;
