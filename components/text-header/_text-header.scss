@@ -3,7 +3,11 @@
         @extend %pl-h1;
     }
 
-    &__h2{
+    &__h2 {
         @extend %pl-h2;
+    }
+
+    &__h4 {
+        @extend %pl-h4;
     }
 }

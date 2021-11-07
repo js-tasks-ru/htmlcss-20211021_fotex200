@@ -2,6 +2,7 @@
     --white: #ffffff;
     --black: #212429;
     --black-1: #000000;
+    --black-2: #334D6E;
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-1: #5028C6;
@@ -50,7 +51,17 @@ $inter: 'Inter', sans-serif;
     color: var(--black);
 }
 
+%pl-h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: $inter;
+    color: var(--black-2);
+}
+
 %pl-text {
+    font-family: $inter;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
