@@ -31,6 +31,11 @@
     --secondary: var(--purple);
 }
 
+html,
+body {
+    height: 100%;
+}
+
 $roboto: 'Roboto', sans-serif;
 $inter: 'Inter', sans-serif;
 
