@@ -1,0 +1,80 @@
+.histogram {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 16px 24px 24px;
+    display: flex;
+    flex-flow: column nowrap;
+
+    &__header {
+        display: grid;
+        grid-template-columns: 1fr min-content;
+        gap: 6px 2px;
+
+        margin: 0 0 39px;
+
+        &-item {
+            &_aleft {
+                text-align: left;
+            }
+
+            &_aright {
+                text-align: right;
+            }
+        }
+
+        &-total {
+            font-family: $inter;
+            color: var(--black);
+            line-height: 24px;
+            opacity: 0.8;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        &-view {
+            font-family: $inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: right;
+            color: var(--blue-1);
+            white-space: nowrap;
+            margin: 1px 0 0;
+
+        }
+
+        &-amount {
+            font-family: $inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    &__scale {
+        height: 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        margin: auto 0 0;
+        
+        &-item {
+            flex-basis: 9px;
+            flex-grow: 1;
+            margin: 0 1px 0 0;
+            background-color: var(--blue-1);
+
+            &:last-child {
+                width: 3.33%;
+                margin: 0;
+            }
+        }
+    }
+}
