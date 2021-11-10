@@ -31,12 +31,26 @@
     --secondary: var(--purple);
 }
 
+html,
+body {
+    height: 100%;
+}
+
 $roboto: 'Roboto', sans-serif;
 $inter: 'Inter', sans-serif;
 
 * {
     font-family: $roboto;
 }
+
+$grid-breakpoints: (
+  md: 500px,
+  lg: 992px
+);
+
+$z-index: (
+  modal: 3
+);
 
 // placeholders
 %pl-h1 {
